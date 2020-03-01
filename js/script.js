@@ -206,17 +206,17 @@ function buildMenuItemsViewHtml(categoryMenuItems,
   finalHtml += "<section class='row'>";
 
   // Loop over menu items
-  var menuItems = [{"id":904,"short_name":"SP1","name":"滋味冒川粉","description":"Sweet Potato Noodle","price_small":null,"price_large":null,"small_portion_name":null,"large_portion_name":null},
-  {"id":905,"short_name":"SP2","name":"香辣肥冒蛤","description":"Spicy Clam","price_small":null,"price_large":null,"small_portion_name":null,"large_portion_name":null},
-  {"id":906,"short_name":"SP3","name":"鼓捣吃千层","description":"Spicy Beef Tripe","price_small":null,"price_large":null,"small_portion_name":null,"large_portion_name":null},
-  {"id":907,"short_name":"SP3","name":"冒火辣脑花","description":"Spicy Pork Brain","price_small":null,"price_large":null,"small_portion_name":null,"large_portion_name":null},
-  {"id":908,"short_name":"SP3","name":"麻辣冒巴沙","description":"Spicy Basa Fish","price_small":null,"price_large":null,"small_portion_name":null,"large_portion_name":null},
-  {"id":909,"short_name":"SP3","name":"巴适小土豆","description":"Spicy Mini Potato","price_small":null,"price_large":null,"small_portion_name":null,"large_portion_name":null},
-  {"id":910,"short_name":"SP3","name":"火冒三丈鸭血","description":"Spicy Duck Blood","price_small":null,"price_large":null,"small_portion_name":null,"large_portion_name":null},
-  {"id":911,"short_name":"SP3","name":"路边嫩牛肉","description":"Spicy Beef","price_small":null,"price_large":null,"small_portion_name":null,"large_portion_name":null},
-  {"id":912,"short_name":"SP3","name":"传统小酥肉","description":"Crispy Pork Slice","price_small":null,"price_large":null,"small_portion_name":null,"large_portion_name":null},
-  {"id":913,"short_name":"SP3","name":"红糖糍粑","description":"Brown Sugar Rice Cake","price_small":null,"price_large":null,"small_portion_name":null,"large_portion_name":null},
-  {"id":914,"short_name":"SP3","name":"红糖冰粉","description":"Brown Sugar Ice Jelly","price_small":null,"price_large":null,"small_portion_name":null,"large_portion_name":null}];
+  var menuItems = [{"id":904,"short_name":"SP1","name":"滋味冒川粉","description":"Sweet Potato Noodle","price_small":null,"price_large":6.99,"small_portion_name":null,"large_portion_name":null},
+  {"id":905,"short_name":"SP2","name":"香辣肥冒蛤","description":"Spicy Clam","price_small":null,"price_large":8.99,"small_portion_name":null,"large_portion_name":null},
+  {"id":906,"short_name":"SP3","name":"鼓捣吃千层","description":"Spicy Beef Tripe","price_small":null,"price_large":8.99,"small_portion_name":null,"large_portion_name":null},
+  {"id":907,"short_name":"SP3","name":"冒火辣脑花","description":"Spicy Pork Brain","price_small":null,"price_large":12.99,"small_portion_name":null,"large_portion_name":null},
+  {"id":908,"short_name":"SP3","name":"麻辣冒巴沙","description":"Spicy Basa Fish","price_small":null,"price_large":8.99,"small_portion_name":null,"large_portion_name":null},
+  {"id":909,"short_name":"SP3","name":"巴适小土豆","description":"Spicy Mini Potato","price_small":null,"price_large":6.99,"small_portion_name":null,"large_portion_name":null},
+  {"id":910,"short_name":"SP3","name":"火冒三丈鸭血","description":"Spicy Duck Blood","price_small":null,"price_large":8.99,"small_portion_name":null,"large_portion_name":null},
+  {"id":911,"short_name":"SP3","name":"路边嫩牛肉","description":"Spicy Beef","price_small":null,"price_large":8.99,"small_portion_name":null,"large_portion_name":null},
+  {"id":912,"short_name":"SP3","name":"传统小酥肉","description":"Crispy Pork Slice","price_small":null,"price_large":6.99,"small_portion_name":null,"large_portion_name":null},
+  {"id":913,"short_name":"SP3","name":"红糖糍粑","description":"Brown Sugar Rice Cake","price_small":null,"price_large":6.99,"small_portion_name":null,"large_portion_name":null},
+  {"id":914,"short_name":"SP3","name":"红糖冰粉","description":"Brown Sugar Ice Jelly","price_small":null,"price_large":3.99,"small_portion_name":null,"large_portion_name":null}];
 
   var catShortName = categoryMenuItems.category.short_name;
   for (var i = 0; i < menuItems.length; i++) {
